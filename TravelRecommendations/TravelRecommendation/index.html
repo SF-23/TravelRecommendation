@@ -9,19 +9,21 @@
 <nav>
     <h1>Travel Delight</h1>
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="aboutUs.html">About Us</a></li>
-        <li><a href="contactUs.html">Contact Us</a></li>
-        <li><input type="text" id="conditionInput" placeholder="Enter a destination or keyword"></li>
-        <li><button id='btnSearch'>Search</button>
-        <li><button id='btnClear'> Clear</button></li>
+        <li> <a href="index.html">Home</a></li>
+        <li> <a href="aboutUs.html">About Us</a></li>
+        <li> <a href="contactUs.html">Contact Us</a></li>
+        <li> <input type="text" id="searchBar" placeholder="Enter a destination or keyword"></li>
+        <li> <button id='btnSearch'>Search</button> </li>
+        <li> <button id='btnClear'> Clear</button> </li>
     </ul>
 </nav>
 
-<main class="introduction">
+<main id="introBox" class="introduction">
     <h1>Pick out your travel delight!</h1>
     <p>Pick your dream destination and learn what it offers to your desires!</p>
 </main>
+
+<div id="results-section" class="destinations"></div>
 
 <script src="./travel_recommendation.js"></script>
 </body>
